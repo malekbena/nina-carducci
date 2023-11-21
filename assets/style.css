@@ -85,8 +85,9 @@ body {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	font-size: 24px;
 }
-#about-me p {
+.about-me__description {
 	width: 80%;
 	font-size: 14px;
 }
@@ -97,12 +98,13 @@ body {
 .title{
 	text-align: center;
 	padding-block: 2em;
+	font-size: 28px;
 }
 .gallery .nav {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: #000;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
@@ -148,6 +150,7 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
+	font-size: 40px;
 
 }
 .quote__author {
@@ -214,7 +217,10 @@ body {
 }
 .form-container {
 	flex : 2;
+}
 
+.form-container__title {
+	font-size: 28px;
 }
 form {
 	display: flex;
@@ -256,7 +262,7 @@ input[type="submit"] {
 		margin-top: 0;
 		margin-bottom: 1em;
 	}
-	#about-me h6, #about-me p {
+	#about-me p {
 		width: 100%;
 	}
 }
